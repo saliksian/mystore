@@ -11,7 +11,7 @@ export default function Card(props) {
           <p className="card-text">
             $ {props.price}
           </p>
-          <a href="#" className="btn btn-success style w-100">
+          <a href="#" className="btn btn-success style w-100" onClick={props.onClick}>
             Buy
           </a>
         </div>
